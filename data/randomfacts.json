@@ -1,0 +1,16 @@
+{
+    "Esoteric": {
+        "0": {
+            "Fact": "It's illegal to own just one guinea pig in Switzerland",
+            "Description": "It's considered animal abuse because they're social beings and get lonely."
+        },
+        "1": {
+            "Fact": "Australia is wider than the moon",
+            "Description": "The moon sits at 3400km in diameter, while Australia’s diameter from east to west is almost 4000km."
+        },
+        "2": {
+            "Fact": "A book called 'A la recherche du temps perdu' by Marcel Proust is the longest book in the world",
+            "Description": "It contains an estimated 9,609,000 characters. The title also translate to 'Remembrance of Things Past'"
+        }
+    }
+}
