@@ -3,7 +3,7 @@ import randomFact from "../utils/randomfact.js";
 
 export default function facts() {
     return (
-        <div className="lg:flex gap-10">
+        <div className="lg:flex gap-10 justify-center">
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
                 <div className="text-center md:text-lg">{randomFact()}</div>
                 <br></br>

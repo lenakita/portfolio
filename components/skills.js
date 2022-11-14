@@ -25,14 +25,14 @@ export default function skills() {
     return (
         <div>
             <div>
-                <h3 className="text-3xl py-1">Skills I offer</h3>
+                <h3 className="text-3xl py-1 text-center">Skills I offer</h3>
                 <p className="text-md py-2 leading-8 text-gray-800 dark:text-slate-200">
                 <div className="text-center">
                     <em>Scripting, DevSecOps know-how and random facts of the day </em>😊
                 </div>
                 </p>
             </div>
-            <div className="lg:flex gap-10">
+            <div className="lg:flex gap-10 justify-center">
                 <div className="justify-center text-center shadow-lg p-10 rounded-xl my-10">
                     <h3 className="text-lg font-semibold pt-8 pb-2">Tools</h3>
                     {/* TODO: insert urls for tools/languages etc. */}
