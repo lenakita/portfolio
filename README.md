@@ -1,9 +1,5 @@
 ## Portfolio Website
-This is the open source code for my portfolio website hosted at [url-here](), created using [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com).
-
-## TODO
-- Deploy using GitHub actions rather than Vercel.
-- Amend comments in index.js.
+This is the open source code for my portfolio website hosted on [GitHub pages](https://lenakita.github.io), created using [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com).
 
 ## Getting Started
 
@@ -25,9 +21,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Deployment
 
-Deployed using [Vercel](https://vercel.com/dashboard).
-
-The [Next.js deployment documentation](https://nextjs.org/docs/deployment) has more details.
+Deployed using [GitHub pages](https://pages.github.com/).
 
 ## Learn More
 
