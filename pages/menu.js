@@ -1,5 +1,4 @@
-import { Menu, Transition } from "@headlessui/react";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import {
   BsFillMoonStarsFill
 } from "react-icons/bs";

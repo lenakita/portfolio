@@ -1,6 +1,5 @@
 import {
     AiFillGithub,
-    AiOutlineUnorderedList
 } from "react-icons/ai";
 import {
     SiTailwindcss

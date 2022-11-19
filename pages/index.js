@@ -12,17 +12,8 @@
 
 import Head from "next/head";
 import { useState } from "react";
-import { Menu } from "@headlessui/react";
-import {
-  AiFillGithub,
-  AiOutlineUnorderedList
-} from "react-icons/ai";
-import { Link, animateScroll as scroll } from "react-scroll";
-import {
-  BsFillMoonStarsFill
-} from "react-icons/bs";
 
-// component imports
+// page imports
 import menu from "./menu.js";
 import header from "./header.js";
 import facts from "./facts.js"
