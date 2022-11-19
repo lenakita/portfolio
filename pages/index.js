@@ -1,15 +1,3 @@
-/*
-  TODO:
-  break down into multiple components for the one pager
-  tidy up formatting
-  update icons for cards
-  fix large padding below pfp :: required new section
-  deploy via GitHub workflows
-
-  add nav bar that moves down page (anchors?) when clicked
-  move dark mode out of nav and nav into nav.js
-*/
-
 import Head from "next/head";
 import { useState } from "react";
 
@@ -25,14 +13,12 @@ import footer from "./footer.js";
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
   const featureFlags = {
-    "facts": true,
-    "skills": {
-      "tools": true,
-      "langs": true,
-      "vers": true,
-      "quals": false
-    },
-    "portfolio": false,
+    facts: true,
+    tools: true,
+    langs: true,
+    vers: true,
+    quals: false,
+    portfolio: false,
   }
 
   return (

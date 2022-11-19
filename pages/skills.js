@@ -33,7 +33,7 @@ export default function skills(featureFlags) {
                 </p>
             </div>
             <div className="lg:flex gap-10 justify-center">
-                <div className={featureFlags["skills"]["tools"] ? "visible" : "hidden"}>
+                <div className={featureFlags.tools ? "visible" : "hidden"}>
                     <div className="justify-center text-center border-2 border-gray-100 dark:border-slate-500 shadow-lg px-10 pb-10 rounded-xl my-10">
                         <h3 className="text-lg font-semibold pt-8 pb-2">Tools</h3>
                         {/* TODO: insert urls for tools/languages etc. */}
@@ -84,7 +84,7 @@ export default function skills(featureFlags) {
                         </div>
                     </div>
                 </div>
-                <div className={featureFlags["skills"]["langs"] ? "visible" : "hidden"}>
+                <div className={featureFlags.langs ? "visible" : "hidden"}>
                     <div className="justify-center text-center border-2 border-gray-100 dark:border-slate-500 shadow-lg px-10 pb-10 rounded-xl my-10">
                         <h3 className="text-lg font-semibold pt-8 pb-2">Languages</h3>
                         {/* TODO: insert urls for tools/languages etc. */}
@@ -124,7 +124,7 @@ export default function skills(featureFlags) {
                         </div>
                     </div>
                 </div>
-                <div className={featureFlags["skills"]["vers"] ? "visible" : "hidden"}>
+                <div className={featureFlags.vers ? "visible" : "hidden"}>
                     <div className="justify-center text-center border-2 border-gray-100 dark:border-slate-500 shadow-lg px-10 pb-10 rounded-xl my-10">
                         <h3 className="text-lg font-semibold pt-8 pb-2">Versioning & Documentation</h3>
                         {/* TODO: insert urls for tools/languages etc. */}
@@ -182,7 +182,7 @@ export default function skills(featureFlags) {
                         </div>
                     </div>
                 </div>
-                <div className={featureFlags["skills"]["quals"] ? "visible" : "hidden"}>
+                <div className={featureFlags.quals ? "visible" : "hidden"}>
                     <div className="justify-center text-center border-2 border-gray-100 dark:border-slate-500 shadow-lg px-10 pb-10 rounded-xl my-10">
                         <h3 className="text-lg font-semibold pt-8 pb-2">Qualifications</h3>
                         {/* TODO: insert urls for tools/languages etc. */}
