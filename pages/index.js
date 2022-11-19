@@ -24,6 +24,16 @@ import footer from "./footer.js";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
+  const featureFlags = {
+    "facts": true,
+    "skills": {
+      "tools": true,
+      "langs": true,
+      "vers": true,
+      "quals": false
+    },
+    "portfolio": false,
+  }
 
   return (
     <div className={darkMode ? "dark" : ""}>
@@ -40,13 +50,13 @@ export default function Home() {
           {header()}
         </section>
         <section id="facts">
-          {facts()}
+          {facts(featureFlags)}
         </section>
         <section id="skills">
-          {skills()}
+          {skills(featureFlags)}
         </section>
         <section id="portfolio">
-          {portfolio()}
+          {portfolio(featureFlags)}
         </section>
         <section>
           {/* {test()} */}

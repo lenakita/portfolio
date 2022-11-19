@@ -2,9 +2,9 @@ import Image from "next/image"
 
 import discordLogo from "../public/discord_logo.png"
 
-export default function portfolio() {
+export default function portfolio(featureFlags) {
     return (
-        <div>
+        <div className={featureFlags["portfolio"] ? "visible" : "hidden"}>
             <div className="text-center">
                 <h3 className="text-2xl py-1">Portfolio</h3>
                 <p>
