@@ -1,5 +1,5 @@
 ## Portfolio Website
-This is the open source code for my portfolio website hosted on [GitHub pages](https://lenakita.github.io), created using [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com).
+This is the open source code for my portfolio website hosted on [GitHub pages](https://lenakita.github.io/portfolio/), created using [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com).
 
 ## Getting Started
 
