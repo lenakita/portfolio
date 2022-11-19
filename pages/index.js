@@ -59,9 +59,6 @@ export default function Home() {
           {portfolio(featureFlags)}
         </section>
         <section>
-          {/* {test()} */}
-        </section>
-        <section>
           {footer()}
         </section>
       </main>
