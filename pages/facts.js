@@ -8,7 +8,7 @@ export default function facts(featureFlags) {
                 <div className="text-center border-2 border-gray-100 dark:border-slate-500 shadow-lg p-10 rounded-lg my-10">
                     <div className="text-center md:text-lg">{randomFact()}</div>
                     <br></br>
-                    <p className="text-center text-sm md:text-md">
+                    <p className="text-center text-sm text-gray-500 dark:text-gray-200">
                         <em>Note: This fact is randomly generated every time the page refreshes.</em>😎
                     </p>
                 </div>
