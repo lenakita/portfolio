@@ -1,5 +1,7 @@
 import Image from "next/image"
 
+import discordLogo from "../public/discord_logo.png"
+
 export default function portfolio() {
     return (
         <div>
@@ -14,7 +16,7 @@ export default function portfolio() {
                     <Image
                         alt="Discord logo"
                         className="rounded-lg object-cover"
-                        src="/discord_logo.png"
+                        src={discordLogo}
                         width={50}
                         height={50}
                     />

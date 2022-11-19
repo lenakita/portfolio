@@ -5,6 +5,8 @@ import {
     AiFillGithub,
 } from "react-icons/ai";
 
+import pfp from "../public/pfp.jpg";
+
 export default function header() {
     return (
         <div>
@@ -36,7 +38,7 @@ export default function header() {
                 </a>
             </div>
             <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
-                <Image alt="Elena Thomas profile picture" src="/pfp.jpg" layout="fill" objectFit="cover"/>
+                <Image alt="Elena Thomas profile picture" src={pfp} layout="fill" objectFit="cover"/>
             </div>
         </div>
     )

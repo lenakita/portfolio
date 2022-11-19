@@ -38,6 +38,5 @@ const generateRandomFact = () => {
     const randomNumber = Math.floor(
         Math.random() * Object.keys(randomFacts["Esoteric"]).length
     );
-    console.log("Arr: ", randomFacts["Esoteric"][randomNumber])
     return randomFacts["Esoteric"][randomNumber];
 }
